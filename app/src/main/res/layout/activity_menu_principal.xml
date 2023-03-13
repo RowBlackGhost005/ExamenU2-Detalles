@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MenuPrincipal">
+
+    <ImageView
+        android:id="@+id/mainImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/grupo2"
+        android:layout_gravity="center"
+        />
+
+    <Button
+        android:id="@+id/Detalles"
+        android:layout_width="250dp"
+        android:layout_height="75dp"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:textSize="24dp"
+        android:text="@string/detalles"
+        />
+
+    <Button
+        android:id="@+id/Globos"
+        android:layout_width="250dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:textSize="24dp"
+        android:text="@string/globos"
+        />
+
+    <Button
+        android:id="@+id/Peluches"
+        android:layout_width="250dp"
+        android:layout_height="75dp"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:textSize="24dp"
+        android:text="@string/peluches"
+        />
+
+    <Button
+        android:id="@+id/Regalos"
+        android:layout_width="250dp"
+        android:layout_height="75dp"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:textSize="24dp"
+        android:text="@string/regalos"
+        />
+
+    <Button
+        android:id="@+id/Tazas"
+        android:layout_width="250dp"
+        android:layout_height="75dp"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:textSize="24dp"
+        android:text="@string/tazas"
+        />
+
+
+</LinearLayout>
